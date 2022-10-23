@@ -1,0 +1,123 @@
+.main__numbers {
+}
+.numbers {
+}
+.numbers__container {
+    padding: 55px 15px 48px 15px;
+}
+.numbers__title {
+    padding-top: 14px;
+}
+.numbers-title {
+    display: flex;
+    align-items: center;
+}
+.numbers-title__img {
+    margin-right: 15px;
+}
+.numbers-title__contry {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #6C6E79;
+}
+.numbers__items {
+}
+.num-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.num-items__column {
+    padding: 14px 14px 0 0;
+}
+.num-items__item {
+    padding: 15px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E0E1E9;
+    border-radius: 5px;
+    min-width: 276px;
+
+}
+.num-items__number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #484A54;
+    margin-bottom: 9px;
+}
+.num-items__line {
+    width: 100%;
+    height: 1px;
+    background-color: #E0E1E9;
+    margin-bottom: 12px;
+}
+.num-items__info {
+    display: flex;
+    justify-content: center;
+}
+.num-items__messages {
+    display: flex;
+    margin-right: 15px;
+}
+.num-items__messages-img {
+    margin-right: 10px;
+}
+.num-items__messages-value {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #A9ABB6;
+}
+.num-items__time {
+    display: flex;
+}
+.num-items__time-img {
+    margin-right: 10px;
+}
+.num-items__time-value {
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #A9ABB6;
+}
+.numbers__numbers {
+    display: inline-block;
+}
+
+.num-items__showall-img {
+    margin-right: 10px;
+}
+.num-items__showall__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #484A54;
+}
+.num-items__showall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px 20px 12px;
+    min-height: 85.4px;
+}

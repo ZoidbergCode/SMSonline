@@ -1,0 +1,61 @@
+.howitworks__container {
+    padding: 29px 47px;
+    box-sizing: border-box;
+}
+.howitworks__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 116%;
+    display: flex;
+    align-items: center;
+    color: #111317;
+    padding: 20px 0 12px 0;
+}
+.howitworks__text-block {  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191B23;
+    margin-bottom: 25px;
+}
+.howitworks__ul {
+    padding: 0 0 0 35px;
+}
+.howitworks__ul-li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191B23;
+    margin-bottom: 25px;
+    position: relative;
+}
+.howitworks__ul-li::before {
+    content: url('./../images/main/group.svg');
+    position: absolute;
+    top: 10px;
+    left: -35px;
+}
+.howitworks__ol {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191B23;
+    padding: 0 0 0 20px;
+    margin-bottom: 25px;
+}
+.howitworks__ol-li {
+}
+.Montserrat {
+    font-family: 'Montserrat';
+}
+.howitworks__bigmargin {
+    margin-bottom: 63px;
+}

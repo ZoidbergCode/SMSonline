@@ -1,0 +1,133 @@
+.header {
+    background: var(--color-black);
+    color: var(--text-gray);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+.header__container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 47px;
+}
+.header__links {
+    display: flex;
+}
+.header__links >* {
+    margin-right: 40px;
+}
+.header__links >* .header-link__img {
+    margin-right: 8px;
+}
+.header-link {
+    display: flex;
+    padding: 13px 0;
+    align-items: center;
+}
+.header-link__img {
+}
+.header-link__item a {
+    transition: all .15s ease;
+    user-select: none;
+}
+.header-link__item a:hover {
+    color: #F4F5F9
+}
+.header-link__logo {
+    margin-right: 36px;
+}
+.white {
+    color: #F4F5F9;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.search {
+    margin-left: 19px;
+    margin-right: 44px;
+    width: 196px;
+    height: 30px;
+    background: #424242;
+    border-radius: 5px;
+    padding: 7px 9px 8px 11px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: text;
+}
+.search__input {
+    background-color: transparent;
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 100%;
+	opacity: 1;
+    color: #fff;
+    max-width: 140px;
+}
+.search__input::placeholder {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 100%;
+	opacity: 1;
+    color: #fff;
+
+}
+.search__input:focus {
+    outline: none;
+    border: none;
+}
+.search__img {
+}
+.header__langs {
+}
+.langs {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.langs__img {
+    margin-right: 7px;
+}
+.langs__choosed {
+    transition: all .15s ease;
+}
+.langs__choosed:hover {
+    color: #fff;
+}
+.search-burger {
+    position: absolute;
+    bottom: 43px;
+    left: 0;
+    right: 0;
+    margin: 0 40px;
+    z-index: 2;
+    width: auto;
+    transition: all .2s ease;
+    transform: translateX(-100vw);
+}
+.header__burger {
+}
+.burger {
+    display: flex;
+    margin-left: 45px;
+    align-items: center;
+}
+.burger__text {
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+.burger__img {
+}

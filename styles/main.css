@@ -1,0 +1,105 @@
+.main__main-title {
+}
+.main-title {
+    padding: 70px 0 74px 0; 
+}
+.main-title__container >*:not(:last-child) {
+    margin-bottom: 25px;
+}
+.main-title__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-title__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 111%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #111317;
+}
+.main-title__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+.main-title__select-container {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    display: inline-block;
+    color: #484A54;
+    margin: 0 auto;
+}
+.main-title__select-container::after {
+    content: url('./../images/main/select-arrow.svg');
+    position: absolute;
+    right: -10px;
+    top: 17px;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+.main-title__select {
+    background: #F3F4F5;
+    border: 1px solid #C4C7CF;
+    border-radius: 5px;
+    padding: 14px 14px 13px 12px;
+    width: 362px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.main__points {
+}
+.points {
+}
+.points__container {
+    padding: 26px 0;
+}
+.points__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.point__column {
+    flex: 0 0 300px;
+}
+.point__column:not(:last-child) {
+    margin-right: 110px;
+}
+.point__item {
+    display: flex;
+    align-items: center;
+}
+.point-item {
+}
+.point-item__img {
+    margin-right: 30px;
+}
+.point-item__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    width: 276px;
+    margin-top: 5px;
+}
+.point-item__text-long {
+    width: 294px;
+}

@@ -1,0 +1,44 @@
+.main__socials {
+}
+.socials {
+    padding-bottom: 45px;
+}
+.socials__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 116%;
+    text-align: center;
+    color: #111317;
+    margin-bottom: 10px;
+}
+.socials__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    text-align: center;
+    color: #4E4E4E;
+}
+.socials__items {
+}
+.soc-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.soc-items__column {
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.soc-items__item {
+    cursor: pointer;
+}

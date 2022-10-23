@@ -1,0 +1,40 @@
+.point-item__shortmargin {
+    margin-right: 20px!important;
+}
+.howtouse-table .available-table__checkout {
+    flex: 1 0 13%;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: left;
+    color: #006DCA;
+    cursor: pointer;
+}
+.howtouse-table .available-table__added {
+    flex: 1 0 13%;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: right;
+
+    color: #666666;
+}
+.howtouse-table .available-table__header .available-table__added {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    color: #2F2F2F;
+}
+.howtouse-table {}
+.howtouse-table {}

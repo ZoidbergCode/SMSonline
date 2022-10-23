@@ -1,0 +1,182 @@
+.main__incoming-sms {
+    padding-bottom: 25px;
+}
+.incoming-sms {
+}
+.incoming-sms__container {
+
+}
+.incoming-sms__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.incoming-sms__number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    padding: 0 5px;
+}
+.incoming-sms__private-nums {
+}
+.private-nums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.private-nums__button {
+    position: relative;
+    background: #F3F4F5;
+    border: 1px solid #C4C7CF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #484A54;
+    padding: 9px 15px 10px 41px;
+    transition: all .15s ease;
+}
+.private-nums__button::before {
+    content: url('./../images/main/private-button.svg');
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+.private-nums__button:hover {
+    background: #00755F;
+    color: #FFFFFF;
+}
+
+.incoming-sms__table-sms {
+}
+.table-sms {
+    background: #FFFFFF;
+    border: 1px solid #E0E1E9;
+    border-radius: 5px;
+}
+.table-sms__tr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #E0E1E9;
+    padding: 15px 35px 15px 57px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.table-sms__tr:hover {
+    background: #F4F5F9;
+}
+.table-sms__from {
+    flex: 0 0 15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #666666;
+    position: relative;
+}
+.table-sms__from::before {
+    content: url('./../images/main/incoming-arrow.svg');
+    position: absolute;
+    top: 0px;
+    left: -37px;
+}
+.table-sms__message {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #666666;
+    flex: 1 1 auto;
+    max-width: 700px;
+}
+.table-sms__time {
+    flex: 1 0 15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: right;
+    color: #666666;
+}
+
+.from-link.table-sms__from {
+    color: #006DCA;
+    cursor: pointer;
+}
+.table-sms__header {
+    background: #F4F5F9;
+
+}
+.sms-header {
+    display: flex;
+    justify-content: space-between!important;
+}
+.sms-header__from {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
+}
+.sms-header__got {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #2F2F2F;
+}
+
+.incoming-sms__pages {
+}
+.income-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.income-pages__items {
+    display: flex;
+    margin-top: 25px;
+}
+.income-pages__column {
+}
+.income-pages__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6C6E79;
+    background: #FFFFFF;
+    border: 1px solid #C4C7CF;
+    padding: 11px 13px;
+    cursor: pointer;
+}
+.income-pages__active {
+    background: #009F81;
+    color: #FFFFFF;
+}

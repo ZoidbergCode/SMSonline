@@ -1,0 +1,84 @@
+.langs-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.langs-modal__content {
+    background: #000000;
+    border-radius: 5px;
+    padding: 32px 58px 41px 84px;
+    max-width: 740px;
+}
+.langs-modal__title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.langs-modal__button {
+    margin-top: -30px;
+    margin-right: -40px;
+    cursor: pointer;
+}
+.langs-modal__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.langs-modal__langs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.langs-modal__langs::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 44px;
+    background: #00755F;
+    border-radius: 5px;
+}
+.langs-modal__langs::-webkit-scrollbar {
+    width: 5px;
+}   
+.langs-modal__langs::-webkit-scrollbar-track {
+    background: #3E3E3E;
+    border-radius: 5px;
+}           
+.langs-modal__lang {
+    display: flex;
+    align-items: center;
+    flex: 0 0 25%;
+    cursor: pointer;
+}
+.langs-modal__img {
+    margin-right: 12px;
+}
+.langs-modal__country-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 250%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #898D9A;
+    transition: all .15s ease;
+}
+.langs-modal__country-name:hover {
+    color: #fff
+}
+
+.modal-closed {
+    display: none;
+}

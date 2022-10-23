@@ -1,0 +1,135 @@
+.main__available-table {
+}
+.available-table {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.available-table__container1 {
+    box-sizing: border-box;
+    padding: 0 46px;
+}
+.available-table__container {
+    background: #FFFFFF;
+    border: 1px solid #E0E1E9;
+    border-radius: 5px;
+    padding: 0;
+}
+.available-table__tr {
+    display: flex;
+    align-items: center;
+    padding: 25px 28px 20px 35px;
+}
+.available-table__country {
+    flex: 0 0 25%;
+    display: flex;
+    align-items: center;
+}
+.available-table__img {
+    margin-right: 10px;
+}
+.available-table__country-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #666666;
+}
+.available-table__nums-value {
+    flex: 1 0 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #666666;
+}
+.available-table__checkout {
+    flex: 0 0 263px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #006DCA;
+    cursor: pointer;
+}
+.available-table__header {
+    background: #F4F5F9
+}
+.available-table__header .available-table__nums-value {
+    color: #2F2F2F;
+}
+.available-table__header .available-table__country-name {
+    color: #2F2F2F;
+}
+.available-table__header .available-table__checkout {
+    color: #2F2F2F!important;
+}
+
+.auto-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auto-modal__content {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 42px 54px 49px 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 706px;
+}
+.auto-modal__title {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 111%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #111317;
+    margin-bottom: 30px;
+}
+.auto-modal__cross {
+    position: absolute;
+    top: -30px;
+    right: -134px;
+    cursor: pointer;
+}
+.auto-modal__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #191B23;
+    margin-bottom: 33px;
+}
+.auto-modal__button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #00755F;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 15px 77px;
+}

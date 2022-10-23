@@ -1,0 +1,51 @@
+*:before, *:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+.wrapper {
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+[class*="__container"] {
+	max-width: 1240px;
+	margin: 0px auto;
+	padding: 0 15px;
+	box-sizing: content-box;
+}
+
+html, body, main{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.main {
+    flex: 1 1 auto;
+}
